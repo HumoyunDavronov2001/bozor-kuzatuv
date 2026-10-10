@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="BOZOR KUZATUV — obyektlarni bitta markazdan real vaqtda kuzatish tizimi">
+  <defs>
+    <linearGradient id="fon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0d2238"/>
+    </linearGradient>
+    <radialGradient id="nur" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="tor" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#16263d" stroke-width="1"/>
+    </pattern>
+    <clipPath id="hudud">
+      <path d="M842 92 L948 80 L1010 104 L1046 96 L1092 128 L1150 138 L1188 176 L1170 222 L1122 236 L1104 282 L1040 300 L978 286 L930 300 L878 268 L862 220 L828 196 L836 140 Z"/>
+    </clipPath>
+    <style>
+      .sarlavha{font:800 54px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#f8fafc;letter-spacing:1px}
+      .izoh{font:500 22px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#94a3b8}
+      .teg{font:600 15px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#cbd5e1}
+      .yorliq{font:600 12px 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;fill:#9fb3c8;letter-spacing:1.5px}
+    </style>
+  </defs>
+  <rect width="1280" height="360" fill="url(#fon)"/>
+  <rect width="1280" height="360" fill="url(#tor)" opacity=".6"/>
+
+  <g transform="translate(64 0)">
+    <rect x="0" y="70" width="56" height="56" rx="14" fill="#34d399"/>
+    <polyline points="10,100 20,100 25,86 31,112 37,94 42,100 46,100" fill="none" stroke="#052e1c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="sarlavha" x="0" y="190">BOZOR KUZATUV</text>
+    <text class="izoh" x="0" y="232">Bozor · turargoh · karyer · hosil qabuli — bitta markazda, real vaqtda</text>
+    <g transform="translate(0 270)">
+      <rect width="80" height="30" rx="15" fill="#1e293b"/><text class="teg" x="40" y="20" text-anchor="middle">Python</text>
+      <rect x="90" width="86" height="30" rx="15" fill="#1e293b"/><text class="teg" x="133" y="20" text-anchor="middle">SQLite</text>
+      <rect x="186" width="62" height="30" rx="15" fill="#1e293b"/><text class="teg" x="217" y="20" text-anchor="middle">SSE</text>
+      <rect x="258" width="88" height="30" rx="15" fill="#1e293b"/><text class="teg" x="302" y="20" text-anchor="middle">Docker</text>
+      <rect x="356" width="102" height="30" rx="15" fill="#1e293b"/><text class="teg" x="407" y="20" text-anchor="middle">Telegram</text>
+    </g>
+  </g>
+
+  <!-- Viloyat xaritasi: radar aylanadi, obyektlar puls beradi (SMIL) -->
+  <g>
+    <path d="M842 92 L948 80 L1010 104 L1046 96 L1092 128 L1150 138 L1188 176 L1170 222 L1122 236 L1104 282 L1040 300 L978 286 L930 300 L878 268 L862 220 L828 196 L836 140 Z" fill="#11243b" stroke="#c9a227" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M948 80 L960 170 L1046 96 M960 170 L1092 128 M960 170 L1010 230 L1122 236 M1010 230 L978 286 M960 170 L862 220 M1010 230 L878 268" fill="none" stroke="#c9a227" stroke-opacity=".35" stroke-width="1.2"/>
+    <g clip-path="url(#hudud)">
+      <path d="M1000 190 L1000 40 A150 150 0 0 1 1130 115 Z" fill="url(#nur)" opacity=".6">
+        <animateTransform attributeName="transform" type="rotate" from="0 1000 190" to="360 1000 190" dur="6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <circle cx="1000" cy="190" r="4" fill="#f8fafc"/>
+
+    <!-- obyektlar: oziq · avto · to'yxona · chorva · karyer -->
+    <g>
+      <circle cx="902" cy="132" r="6" fill="none" stroke="#1baf7a" stroke-width="2">
+        <animate attributeName="r" values="6;20" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="902" cy="132" r="6" fill="#1baf7a"/>
+    </g>
+    <g>
+      <circle cx="1068" cy="168" r="6" fill="none" stroke="#3b8beb" stroke-width="2">
+        <animate attributeName="r" values="6;20" dur="2.4s" begin=".5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2.4s" begin=".5s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="1062" y="162" width="12" height="12" rx="2" fill="#3b8beb"/>
+    </g>
+    <g>
+      <circle cx="1030" cy="252" r="6" fill="none" stroke="#e5484d" stroke-width="2">
+        <animate attributeName="r" values="6;20" dur="2.4s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2.4s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M1030 244 L1038 252 L1030 260 L1022 252 Z" fill="#e5484d"/>
+    </g>
+    <g>
+      <circle cx="934" cy="244" r="6" fill="none" stroke="#eda100" stroke-width="2">
+        <animate attributeName="r" values="6;20" dur="2.4s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2.4s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M934 236 L942 250 L926 250 Z" fill="#eda100"/>
+    </g>
+    <g>
+      <circle cx="1140" cy="200" r="6" fill="#64748b">
+        <animate attributeName="fill" values="#64748b;#64748b;#e5484d;#e5484d;#64748b" keyTimes="0;.45;.5;.9;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <text class="yorliq" x="1140" y="186" text-anchor="middle" opacity="0" style="fill:#fca5a5">OFLAYN
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.45;.5;.9;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- jonli puls chizig'i -->
+    <text class="yorliq" x="840" y="330">JONLI OQIM</text>
+    <polyline points="930,326 960,326 968,312 976,338 984,320 992,326 1040,326 1048,314 1056,336 1064,326 1110,326 1118,310 1126,338 1134,326 1180,326" fill="none" stroke="#34d399" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="320" stroke-dashoffset="320">
+      <animate attributeName="stroke-dashoffset" values="320;0;0;-320" keyTimes="0;.5;.6;1" dur="4s" repeatCount="indefinite"/>
+    </polyline>
+  </g>
+</svg>
